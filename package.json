@@ -1,0 +1,13 @@
+{
+  "name": "dispatch-web",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Static marketing site for Dispatch (dispatch.care).",
+  "scripts": {
+    "dev": "live-server --port=3000 --no-browser --quiet"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "packageManager": "pnpm@10.14.0"
+}

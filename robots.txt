@@ -1,0 +1,4 @@
+# Staging — crawling disabled until DNS cutover to dispatch.care.
+# At launch: replace with `Allow: /` and the sitemap line.
+User-agent: *
+Disallow: /

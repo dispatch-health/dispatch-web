@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+*.log
+.env
+.env.local
+dist/
+.cache/
+
+# Local-only Framer image exports — kept for reference, not shipped
+assets/img/framer-source/

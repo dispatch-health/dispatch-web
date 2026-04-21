@@ -1,0 +1,15 @@
+{
+  "name": "Dispatch",
+  "short_name": "Dispatch",
+  "description": "Dispatch saves valuable nurse time and gets patients faster care.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FBF9F5",
+  "theme_color": "#004599",
+  "icons": [
+    { "src": "/icon.svg", "type": "image/svg+xml", "sizes": "any" },
+    { "src": "/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/icon-512-maskable.png", "type": "image/png", "sizes": "512x512", "purpose": "maskable" }
+  ]
+}
