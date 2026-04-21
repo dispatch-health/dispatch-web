@@ -7,7 +7,10 @@
     "dev": "live-server --port=3000 --no-browser --quiet"
   },
   "devDependencies": {
-    "live-server": "^1.2.2"
+    "live-server": "^1.2.2",
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^7.0.0",
+    "puppeteer": "^24.42.0"
   },
   "packageManager": "pnpm@10.14.0"
 }
