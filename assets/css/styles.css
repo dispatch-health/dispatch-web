@@ -542,6 +542,16 @@ strong { font-weight: 600; }
   border-radius: var(--radius-pill);
 }
 .contact-form button[type="submit"]:hover { background: #000; }
+.contact-form button[type="submit"][disabled] { opacity: 0.6; cursor: progress; }
+
+.contact-form .form-status {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.4;
+  min-height: 1.4em;
+}
+.contact-form .form-status[data-state="success"] { color: #15803d; }
+.contact-form .form-status[data-state="error"]   { color: var(--color-brand); }
 
 /* --- Contact page standalone form (full-width, detailed) ------- */
 .contact-form--full { max-width: none; padding: var(--s-5); }

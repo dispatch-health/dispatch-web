@@ -218,7 +218,6 @@
               novalidate>
           <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
           <input type="hidden" name="_subject" value="New dispatch.care inquiry">
-          <input type="hidden" name="_next"    value="https://dispatch.care/contact/thanks/">
 
           <label for="message-h">Message
             <textarea id="message-h" name="Message" rows="3" required placeholder="Type your message here"></textarea>
@@ -235,6 +234,7 @@
             </label>
           </div>
           <button type="submit">Get In Touch</button>
+          <p class="form-status" data-form-status role="status" aria-live="polite"></p>
         </form>
       </div>
     </section>
@@ -284,5 +284,6 @@
       </div>
     </div>
   </footer>
+  <script src="assets/js/contact-form.js" defer></script>
 </body>
 </html>
